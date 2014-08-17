@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Nikhil Mishra's snake & ladder</title>
+    <link type="text/css" href="style/style.css" rel="stylesheet"/>
+  <script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="js/prefixfree.min.js"></script>
+</head>
+<body>
+<input class="btn" type="button" value="Start a new game" onclick="initGame()" />
+    <input class="btn" type="button" id="nextMove" value="Roll " />
+    <canvas class="cnvBoard" id="board" width="650" height="650"></canvas>
+        <img id="dice_img" src="Images/d_1.gif" height="60" class="dice_img"/>
+<section id="roll-wrap">
+<div id="dice" style="transform: rotateX(40deg) rotateY(37deg);">
+    <div class="sf f1">Die</div>
+    <div class="sf f2">Die</div>
+    <div class="sf f3">Die</div>
+    <div class="sf f4">Die</div>
+    <div class="sf f5">Die</div>
+    <div class="sf f6">Die</div>
+</div>
+</section>
+</body>
+
+    <script src="js/main.js"></script>
+</html>
