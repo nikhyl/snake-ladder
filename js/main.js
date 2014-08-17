@@ -170,7 +170,7 @@
             break;
             //snake
             case 99:
-            _currentPos = 11;
+            _currentPos = 29;
             break;
             //snake
             case 72:
